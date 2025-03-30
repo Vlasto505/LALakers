@@ -23,7 +23,7 @@ include('partials/header.php')
                     <span class="icon icon-bar"></span>
                </button>
                <!-- lOGO -->
-               <a href="index.html" class="navbar-brand">Scenic</a>
+               <a href="index.php" class="navbar-brand">Scenic</a>
           </div>
 
           <!-- MENU LINKS -->
@@ -267,7 +267,7 @@ include('partials/header.php')
 
                <div class="col-md-offset-2 col-md-8 col-sm-12">
                     <!-- CONTACT FORM HERE -->
-                    <form id="contact-form" action="#" method="get" role="form">
+                    <form id="contact-form" action="thankyou.php" method="post" role="form">
 
                          <!-- IF MAIL SENT SUCCESSFULLY -->
                          <h6 class="text-success">Your message has been sent successfully. </h6>

@@ -1,0 +1,148 @@
+<!-- TEAM -->
+<section id="team" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="section-title">
+                         <h1>All time players</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div id="owl-team" class="owl-carousel">
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/lebron.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>2019-20 champion, 2019–20 Finals MVP</p>
+                         <h3>Lebron James</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/wilt1.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="#" class="fa fa-github"></a></li>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>5 championships, Hall of Fame class of 1959</p>
+                         <h3>Wilt Chamberlain</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/james.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                                        <li><a href="#" class="fa fa-behance"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>3 championships, 1987-88 Finals MVP, Hall of Fame class of 2003</p>
+                         <h3>James Worthy</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/elgin.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>11-time All-Star, 1958-59 Rookie of the Year, Hall of Fame class of 1977</p>
+                         <h3>Elgin Baylor</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/jerry.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>1971-72 Champion, 1968-69 Finals MVP, Hall of Fame class of 1980</p>
+                         <h3>Jerry West</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/shaq.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>3 Championships, 3 Finals MVPs, 1999-00 MVP, Hall of Fame class of 2016</p>
+                         <h3>Shaquille O'Neal</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/kareem.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>5 championships, 1984-85 Finals MVP, 3 MVPs, Hall of Fame class of 1995</p>
+                         <h3>Kareem Abdul-Jabbar</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/kobe.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>5 championships, 2 Finals MVPs, 2007-08 MVP, Hall of Fame class of 2020</p>
+                         <h3>Kobe Bryant</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/magic.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>5 championships, 3 Finals MVPs, 3 MVPs, Hall of Fame class of 2002</p>
+                         <h3>Magic Johnson</h3>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>

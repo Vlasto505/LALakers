@@ -2,9 +2,9 @@
 require_once 'config.php';
 require_once 'User_Repository.php';
 session_start();
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
-    die("Prístup zamietnutý. Len administrátor môže vstúpiť.");
-}
+//if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+    //die("Prístup zamietnutý. Len administrátor môže vstúpiť.");
+//}
 
 $userRepo = new UserRepository($conn);
 $users = $userRepo->getAllUsers();
@@ -43,8 +43,14 @@ $conn->close();
                             <td><?= htmlspecialchars($user['email']) ?></td>
                             <td><?= htmlspecialchars($user['Message']) ?></td>
                             <td>
+                                <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
                                 <a href="update.php?id=<?= $user['id'] ?>" class="btn btn-primary">Edit</a>
                                 <a href="delete.php?id=<?= $user['id'] ?>" class="btn btn-danger">Delete</a>
+                                <?php endif; ?>
+                                <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'user'): ?>
+                                    <p>User cant acsess these actions.</p>
+                                <?php endif; ?>
+
                             </td>
                         </tr>
                     <?php endforeach; ?>

@@ -81,12 +81,12 @@ class PlayerRepository {
     }
 
     public function updatePlayerSocials($playerId, $socials) {
-    // Vymaž existujúce
+    // vymaze existujuce
     $stmt = $this->conn->prepare("DELETE FROM socials WHERE player_id = ?");
     $stmt->bind_param("i", $playerId);
     $stmt->execute();
 
-    // Vlož nové
+// ulozi nove 
     if (!empty($socials)) {
         $stmt = $this->conn->prepare("INSERT INTO socials (player_id, platform) VALUES (?, ?)");
         foreach ($socials as $platform) {

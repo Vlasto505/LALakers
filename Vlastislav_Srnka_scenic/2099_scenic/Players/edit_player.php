@@ -14,7 +14,7 @@ if (!$current) {
     die("Hráč neexistuje.");
 }
 
-// Obrázok – ak bol nový, nahraj ho
+// ak novy obrazok, tak nahra ho
 if (!empty($_FILES['image']['name'])) {
     $uploadDir = 'uploads/';
     if (!is_dir($uploadDir)) mkdir($uploadDir);
@@ -34,10 +34,10 @@ if (!empty($_FILES['image']['name'])) {
     }
 }
 
-// UPDATE hráča (ak nový obrázok, inak použi pôvodný)
+// UPDATE hraca, ak sa neprida novy obrazok tak nahra uz ten pouzity
 $repo->updatePlayer($id, $name, $desc, $imagePath ?? $current['image']);
 
-// VYMAŽ staré socials a pridaj nové
+// vymaze stare a da nove socials
 $repo->updatePlayerSocials($id, $socials);
 
 header("Location: admin_player.php");

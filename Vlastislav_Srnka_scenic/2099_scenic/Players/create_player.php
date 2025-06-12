@@ -5,7 +5,7 @@ require_once 'Player_Repository.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'] ?? '';
     $desc = $_POST['description'] ?? '';
-    $socials = $_POST['socials'] ?? []; // <-- už nie json_encode
+    $socials = $_POST['socials'] ?? []; 
 
     $uploadDir = 'uploads/';
     if (!is_dir($uploadDir)) mkdir($uploadDir);
